@@ -75,12 +75,12 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   max-width: 28rem;
 }
-@media (min-width: 38rem) {
+@media (min-width: 38em) {
   .container {
     max-width: 32rem;
   }
 }
-@media (min-width: 56rem) {
+@media (min-width: 56em) {
   .container {
     max-width: 38rem;
   }
@@ -99,6 +99,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
 }
+
+.masthead img {
+  width: 100%;
+}
+
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
@@ -106,6 +111,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .masthead-title a {
   color: #505050;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 .masthead-title small {
   font-size: 75%;
@@ -114,7 +121,13 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0;
 }
 
-@media (max-width: 48rem) {
+.masthead-title img {
+  width: 40px;
+  float: left;
+  margin-top: -5px;
+}
+
+@media (max-width: 48em) {
   .masthead-title {
     text-align: center;
   }
@@ -155,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
-@media (min-width: 30rem) {
+@media (min-width: 30em) {
   .sidebar {
     font-size: .75rem; /* 14px */
   }
@@ -167,10 +180,15 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 .sidebar-item {
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .sidebar-item p:last-child {
-  margin-bottom: 0;
+  padding-bottom: 1rem;
+}
+
+.sidebar-item img {
+  width: 100%;
 }
 
 /* Sidebar nav */
@@ -190,7 +208,7 @@ a.sidebar-nav-item:focus {
   border-color: transparent;
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 48em) {
   .sidebar-item {
     padding: 1.5rem;
   }
@@ -238,7 +256,7 @@ a.sidebar-nav-item:focus {
   background-color: #505050;
 }
 
-@media (min-width: 30.1rem) {
+@media (min-width: 30.1em) {
   .sidebar-toggle {
     position: fixed;
     width: 2.25rem;
@@ -278,6 +296,7 @@ a.sidebar-nav-item:focus {
 }
 
 #sidebar-checkbox:checked + .sidebar {
+  z-index: 10;
   visibility: visible;
 }
 #sidebar-checkbox:checked ~ .sidebar,
@@ -377,7 +396,7 @@ a.pagination-item:hover {
   background-color: #f5f5f5;
 }
 
-@media (min-width: 30rem) {
+@media (min-width: 30em) {
   .pagination {
     margin: 3rem 0;
   }
@@ -494,12 +513,12 @@ a.pagination-item:hover {
 .theme-base-0d .sidebar,
 .theme-base-0d .sidebar-toggle:active,
 .theme-base-0d #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #6a9fb5;
+  background-color: #7EB6FF;
 }
 .theme-base-0d .container a,
 .theme-base-0d .sidebar-toggle,
 .theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
+  color: #7EB6FF;
 }
 
 /* Magenta */
@@ -524,4 +543,29 @@ a.pagination-item:hover {
 .theme-base-0f .sidebar-toggle,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+
+/*
+ * Overlay sidebar
+ *
+ * Make the sidebar content overlay the viewport content instead of pushing it
+ * aside when toggled.
+ */
+
+.sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar-toggle {
+  box-shadow: 0 0 0 .25rem #fff;
+}
+.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
+  box-shadow: .25rem 0 .5rem rgba(0,0,0,.1);
+}
+
+/* Only one tweak for a reverse layout */
+.layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
+  box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
