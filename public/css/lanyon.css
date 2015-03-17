@@ -124,6 +124,9 @@ h1, h2, h3, h4, h5, h6 {
 .masthead-img-wrap {
   max-height: 10rem;
   overflow: hidden;
+  border-bottom-width: 1px;
+  border-bottom-color: #FD6D1E;
+  border-bottom-style: solid;
 }
 
 .masthead-title {
@@ -187,9 +190,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #1C2C5D;
-  border-right-width: 2px;
-  border-right-color: #FD6D1E;
-  border-right-style: solid;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
   z-index: 1;
