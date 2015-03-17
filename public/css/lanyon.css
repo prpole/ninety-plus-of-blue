@@ -370,6 +370,7 @@ a.sidebar-nav-item:focus {
 
 .post img {
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 /* Blog post or page title */
@@ -387,6 +388,10 @@ a.sidebar-nav-item:focus {
   overflow: hidden;
   height: 10rem;
   margin-bottom: 2rem;
+}
+
+.post-img-wrap img {
+  width: 100%;
 }
 
 /* Meta data line below post title */

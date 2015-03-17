@@ -6,21 +6,13 @@ image: 2015-03-08-orlando-city.jpeg
 ---
 
 >And we realize this only at a point where they lapse
-
 >Like a wave breaking on a rock, giving up
-
 >Its shape in a gesture which expresses that shape.
-
 >The forms retain a strong measure of ideal beauty
-
 >As they forage in secret on our idea of distortion.
-
 >Why be unhappy with this arrangement, since
-
 >Dreams prolong us as they are absorbed?
-
 >Something like living occurs, a movement 
-
 >Out of the dream into its codification.
 
 --John Ashbery, from "Self-Portrait in a Convex Mirror"
