@@ -72,6 +72,22 @@ h1, h2, h3, h4, h5, h6 {
  * Center the page content.
  */
 
+.mast-container {
+  max-width: 34rem;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+@media (min-width: 38em) {
+  .mast-container {
+    max-width: 32rem;
+  }
+}
+@media (min-width: 56em) {
+  .mast-container {
+    max-width: 38rem;
+  }
+}
+
 .container {
   max-width: 28rem;
 }
@@ -94,14 +110,20 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .masthead {
-  padding-top:    1rem;
+  /*padding-top:    1rem;*/
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
+  position: relative;
 }
 
-.masthead img {
+.masthead-img-wrap img {
   width: 100%;
+}
+
+.masthead-img-wrap {
+  max-height: 10rem;
+  overflow: hidden;
 }
 
 .masthead-title {
@@ -151,6 +173,30 @@ h1, h2, h3, h4, h5, h6 {
  *
  * Source: http://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
  */
+
+/* Permabar; should push wrapped content left but be obscured by the moving sidebar*/
+
+.permabar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0rem;
+  width: 3rem;
+  overflow-y: auto;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: .875rem; /* 15px */
+  color: rgba(255,255,255,.6);
+  background-color: #202020;
+  -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+  z-index: 1;
+  height: 100%;
+}
+@media (min-width: 30em) {
+  .permabar {
+    font-size: .75rem; /* 14px */
+  }
+}
 
 /* Style and "hide" the sidebar */
 .sidebar {
@@ -227,7 +273,7 @@ a.sidebar-nav-item:focus {
 .sidebar-toggle {
   position: absolute;
   top:  1rem;
-  left: 1rem;
+  left: .3rem;
   display: block;
   width: 2.2rem;
   padding: .5rem .65rem;
@@ -329,6 +375,12 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title {
   margin-top: 0;
+}
+
+.post-img-wrap {
+  overflow: hidden;
+  height: 10rem;
+  margin-bottom: 2rem;
 }
 
 /* Meta data line below post title */

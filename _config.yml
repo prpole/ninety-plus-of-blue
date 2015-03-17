@@ -10,10 +10,10 @@ relative_permalinks: true
 
 # Setup
 title:               Ninety-Plus of Blue
-tagline:             "NYCFC, from the beginning"
+tagline:             "an aesthete's guide to shouting in public"
 description:         "Call it an aesthete's football journal; call it a grad student's distraction. Call it a passionate defense of Adam Nemec (leave Nemec alone!). I call it bullshit."
 url:                 http://prpole.github.io/ninety-plus-of-blue/
-baseurl:             http://prpole.github.io/ninety-plus-of-blue/
+#baseurl:             ninety-plus-of-blue
 paginate:            5
 
 # About/contact
