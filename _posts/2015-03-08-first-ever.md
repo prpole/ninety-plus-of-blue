@@ -1,29 +1,20 @@
 ---
 layout: post
-title: Orlando City SC (away); Self-Portrait in a Convex Mirror
+title: Orlando City SC 1 - 1 NYCFC
 image: 2015-03-08-orlando-city.jpeg
-
+quote: |
+	And we realize this only at a point where they lapse
+	Like a wave breaking on a rock, giving up
+	Its shape in a gesture which expresses that shape.
+	The forms retain a strong measure of ideal beauty
+	As they forage in secret on our idea of distortion.
+	Why be unhappy with this arrangement, since
+	Dreams prolong us as they are absorbed?
+	Something like living occurs, a movement 
+	Out of the dream into its codification.
+text: "Self-Portrait in a Convex Mirror"
+text-author: John Ashbery
 ---
-
->And we realize this only at a point where they lapse
-
->Like a wave breaking on a rock, giving up
-
->Its shape in a gesture which expresses that shape.
-
->The forms retain a strong measure of ideal beauty
-
->As they forage in secret on our idea of distortion.
-
->Why be unhappy with this arrangement, since
-
->Dreams prolong us as they are absorbed?
-
->Something like living occurs, a movement 
-
->Out of the dream into its codification.
-
---John Ashbery, from "Self-Portrait in a Convex Mirror"
 
 Very little survives the passage from concept to existence unscathed, but I think we've  about made it this time. It was enough of a strain to see the rosters filled out, adding some suddenly very real-sounding names from the benches of other MLS teams---names that, if you're like me, were largely anonymous but had a nice heft to them, plenty of, you know, consonants. Quite possibly, this tension is what lay beneath the outrage at the Lampard saga the whole time: more than ten thousand fans with an unarticulated fear that the team would be a fantasy or an elaborate con, looking that fear in the face and asking it some serious questions about its intentions with their daughter, how it takes its coffee, etc.
 

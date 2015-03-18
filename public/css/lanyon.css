@@ -394,6 +394,15 @@ a.sidebar-nav-item:focus {
   width: 100%;
 }
 
+.post-quote {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25rem;
+  line-height: 1rem;
+  text-align: justify;
+  font-family: "Arvo", Helvetica, Arial, sans-serif;
+}
+
 /* Meta data line below post title */
 .post-date {
   display: block;
