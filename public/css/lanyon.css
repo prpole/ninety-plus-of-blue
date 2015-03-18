@@ -375,6 +375,8 @@ a.sidebar-nav-item:focus {
 
 .footnotes img {
   max-width: 25rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* Blog post or page title */
