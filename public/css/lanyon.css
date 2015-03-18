@@ -412,6 +412,10 @@ a.sidebar-nav-item:focus {
   margin-right: 0;
 }
 
+.text-title {
+  margin: 1rem;
+}
+
 /* Meta data line below post title */
 .post-date {
   display: block;
