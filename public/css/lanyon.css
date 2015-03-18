@@ -401,6 +401,7 @@ a.sidebar-nav-item:focus {
 .post-quote {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1rem;
   width: 25rem;
   line-height: 1.25rem;
   font-family: "Arvo", Helvetica, Arial, sans-serif;
