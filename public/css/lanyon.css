@@ -370,7 +370,11 @@ a.sidebar-nav-item:focus {
 
 .post img {
   margin-bottom: 1rem;
-  max-width: 20rem;
+  width: 100%;
+}
+
+.footnotes img {
+  max-width: 30rem;
 }
 
 /* Blog post or page title */
